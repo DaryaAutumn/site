@@ -58,7 +58,8 @@
 } 
 
 body {
-    background-image: url("../img/bc.svg");
+    /*background-image: url("../img/bc.svg");*/
+    background-color: #DBD2C5;
 }
 
 .footer {
@@ -91,6 +92,7 @@ body {
         font-weight: bold;
         display: inline-block;
         text-align: center;
+        align-content: center;
     }
     
     .hello h3{
@@ -101,8 +103,8 @@ body {
         align-content: center;
         font-weight:300;
         text-align: center;
-        width: 62%;
-    
+        width: 400px;
+        margin-top: 20px;
     }
     
     .hello a{
@@ -126,6 +128,7 @@ body {
         display: block;
         margin-top: 120px;
         margin-left: 600px;
+        width: 400px;
     }
     
     .hello a img{
@@ -188,9 +191,13 @@ body {
     
     .hello {
         display: block;
-        margin-top: 120px;
-        margin-bottom: 120px;
-        width: 100%;
+        
+        width: 500px;
+        background-image: url(/img/el.svg) !important;
+        margin: auto;
+        margin-top: 70px;
+        margin-bottom: 80px;
+        height: 400px;
     }
     
     .hello a img{
@@ -198,15 +205,18 @@ body {
     }
     
     .photo {
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 80px;
         margin-left: 150px;
-        top: 0;
         width: 400px;
         height: 400px;
-        margin-top: 100px;
+        
     }
 
     body {
-        background-image: url("../img/bc2.svg");
+        /*background-image: url("../img/bc2.svg");*/
+        background-color: #DBD2C5;
         background-repeat: no-repeat;
         background-size: cover
     }
