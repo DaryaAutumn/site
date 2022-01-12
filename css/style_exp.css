@@ -88,7 +88,7 @@ body {
     width: 450px;
     height: 430px;
     border: 2px solid #0E0F0F;
-    float: left;
+    
 }
 
 
@@ -143,11 +143,12 @@ img {
 
 h1 {
     color: #CF9100;
-    margin-top: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 210px;
-    text-align: center;
+    margin: auto;
+    align-content: center;
     margin-top: 300px;
+    width: 300px;
+    height: 50px;
 }
 
 .content {
